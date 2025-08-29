@@ -3,7 +3,7 @@
 Marimo notebook to compare and search the binary diffing results using the Rust Diff Plugin for Binary Ninja https://github.com/meerkatone/rust_diff
 
 ## Clone the repo
-git clone https://github.com/meerkatone/rust_diff.git
+git clone https://github.com/meerkatone/binary_diffing_and_marimo_rust.git
 
 ## Install Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -16,7 +16,7 @@ uv venv --python 3.13
 
 source .venv/bin/activate
 
-cd Binary-Diffing-and-Marimo-Rust
+cd binary_diffing_and_marimo_rust
 
 uv pip install marimo
 
